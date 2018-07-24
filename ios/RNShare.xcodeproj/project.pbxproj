@@ -10,9 +10,11 @@
 		B33C22851D441713006BCD98 /* GenericShare.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C22841D441713006BCD98 /* GenericShare.m */; };
 		B33C22891D4419E8006BCD98 /* WhatsAppShare.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C22881D4419E8006BCD98 /* WhatsAppShare.m */; };
 		B33C228B1D442577006BCD98 /* EmailShare.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C228A1D442576006BCD98 /* EmailShare.m */; };
-		B3E7B58A1CC2AC0600A0062D /* RNShare.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNShare.m */; };
 		B3EEE48E1D4844E7008422B6 /* GooglePlusShare.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EEE48D1D4844E7008422B6 /* GooglePlusShare.m */; };
 		CE0C76371E9E7DE100ED396E /* InstagramShare.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0C76361E9E7DE100ED396E /* InstagramShare.m */; };
+		D2599CAE2106DFB6004C052A /* LineShare.m in Sources */ = {isa = PBXBuildFile; fileRef = D2599CAB2106DFB6004C052A /* LineShare.m */; };
+		D2599CAF2106DFB6004C052A /* SmsShare.m in Sources */ = {isa = PBXBuildFile; fileRef = D2599CAD2106DFB6004C052A /* SmsShare.m */; };
+		D2599CB22106DFC4004C052A /* RNShare.m in Sources */ = {isa = PBXBuildFile; fileRef = D2599CB02106DFC4004C052A /* RNShare.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,12 +37,16 @@
 		B33C22881D4419E8006BCD98 /* WhatsAppShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhatsAppShare.m; sourceTree = "<group>"; };
 		B33C228A1D442576006BCD98 /* EmailShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailShare.m; sourceTree = "<group>"; };
 		B33C228C1D442583006BCD98 /* EmailShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailShare.h; sourceTree = "<group>"; };
-		B3E7B5881CC2AC0600A0062D /* RNShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNShare.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* RNShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNShare.m; sourceTree = "<group>"; };
 		B3EEE48D1D4844E7008422B6 /* GooglePlusShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooglePlusShare.m; sourceTree = "<group>"; };
 		B3EEE48F1D4844F4008422B6 /* GooglePlusShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GooglePlusShare.h; sourceTree = "<group>"; };
 		CE0C76361E9E7DE100ED396E /* InstagramShare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstagramShare.m; sourceTree = "<group>"; };
 		CE0C76621E9E869300ED396E /* InstagramShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstagramShare.h; sourceTree = "<group>"; };
+		D2599CAA2106DFB6004C052A /* LineShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineShare.h; sourceTree = "<group>"; };
+		D2599CAB2106DFB6004C052A /* LineShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineShare.m; sourceTree = "<group>"; };
+		D2599CAC2106DFB6004C052A /* SmsShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmsShare.h; sourceTree = "<group>"; };
+		D2599CAD2106DFB6004C052A /* SmsShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmsShare.m; sourceTree = "<group>"; };
+		D2599CB02106DFC4004C052A /* RNShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNShare.m; path = ../../../../cmrep/LibFork/ios/RNShare.m; sourceTree = "<group>"; };
+		D2599CB12106DFC4004C052A /* RNShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNShare.h; path = ../../../../cmrep/LibFork/ios/RNShare.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +72,8 @@
 			isa = PBXGroup;
 			children = (
 				B33C22801D43F9B0006BCD98 /* social */,
-				B3E7B5881CC2AC0600A0062D /* RNShare.h */,
-				B3E7B5891CC2AC0600A0062D /* RNShare.m */,
+				D2599CB12106DFC4004C052A /* RNShare.h */,
+				D2599CB02106DFC4004C052A /* RNShare.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,6 +91,10 @@
 				B33C228C1D442583006BCD98 /* EmailShare.h */,
 				B3EEE48D1D4844E7008422B6 /* GooglePlusShare.m */,
 				B3EEE48F1D4844F4008422B6 /* GooglePlusShare.h */,
+				D2599CAA2106DFB6004C052A /* LineShare.h */,
+				D2599CAB2106DFB6004C052A /* LineShare.m */,
+				D2599CAC2106DFB6004C052A /* SmsShare.h */,
+				D2599CAD2106DFB6004C052A /* SmsShare.m */,
 			);
 			name = social;
 			sourceTree = "<group>";
@@ -147,10 +157,12 @@
 			files = (
 				CE0C76371E9E7DE100ED396E /* InstagramShare.m in Sources */,
 				B3EEE48E1D4844E7008422B6 /* GooglePlusShare.m in Sources */,
-				B3E7B58A1CC2AC0600A0062D /* RNShare.m in Sources */,
+				D2599CAF2106DFB6004C052A /* SmsShare.m in Sources */,
+				D2599CAE2106DFB6004C052A /* LineShare.m in Sources */,
 				B33C22891D4419E8006BCD98 /* WhatsAppShare.m in Sources */,
 				B33C228B1D442577006BCD98 /* EmailShare.m in Sources */,
 				B33C22851D441713006BCD98 /* GenericShare.m in Sources */,
+				D2599CB22106DFC4004C052A /* RNShare.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
