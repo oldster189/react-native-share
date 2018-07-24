@@ -14,7 +14,7 @@
 		CE0C76371E9E7DE100ED396E /* InstagramShare.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0C76361E9E7DE100ED396E /* InstagramShare.m */; };
 		D2599CAE2106DFB6004C052A /* LineShare.m in Sources */ = {isa = PBXBuildFile; fileRef = D2599CAB2106DFB6004C052A /* LineShare.m */; };
 		D2599CAF2106DFB6004C052A /* SmsShare.m in Sources */ = {isa = PBXBuildFile; fileRef = D2599CAD2106DFB6004C052A /* SmsShare.m */; };
-		D2599CB22106DFC4004C052A /* RNShare.m in Sources */ = {isa = PBXBuildFile; fileRef = D2599CB02106DFC4004C052A /* RNShare.m */; };
+		D2599CF42106E656004C052A /* RNShare.m in Sources */ = {isa = PBXBuildFile; fileRef = D2599CF32106E656004C052A /* RNShare.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,8 +45,8 @@
 		D2599CAB2106DFB6004C052A /* LineShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineShare.m; sourceTree = "<group>"; };
 		D2599CAC2106DFB6004C052A /* SmsShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmsShare.h; sourceTree = "<group>"; };
 		D2599CAD2106DFB6004C052A /* SmsShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmsShare.m; sourceTree = "<group>"; };
-		D2599CB02106DFC4004C052A /* RNShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNShare.m; path = ../../../../cmrep/LibFork/ios/RNShare.m; sourceTree = "<group>"; };
-		D2599CB12106DFC4004C052A /* RNShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNShare.h; path = ../../../../cmrep/LibFork/ios/RNShare.h; sourceTree = "<group>"; };
+		D2599CF22106E655004C052A /* RNShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNShare.h; sourceTree = "<group>"; };
+		D2599CF32106E656004C052A /* RNShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNShare.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +72,8 @@
 			isa = PBXGroup;
 			children = (
 				B33C22801D43F9B0006BCD98 /* social */,
-				D2599CB12106DFC4004C052A /* RNShare.h */,
-				D2599CB02106DFC4004C052A /* RNShare.m */,
+				D2599CF22106E655004C052A /* RNShare.h */,
+				D2599CF32106E656004C052A /* RNShare.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 				B33C22891D4419E8006BCD98 /* WhatsAppShare.m in Sources */,
 				B33C228B1D442577006BCD98 /* EmailShare.m in Sources */,
 				B33C22851D441713006BCD98 /* GenericShare.m in Sources */,
-				D2599CB22106DFC4004C052A /* RNShare.m in Sources */,
+				D2599CF42106E656004C052A /* RNShare.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
